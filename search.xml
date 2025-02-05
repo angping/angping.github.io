@@ -2,74 +2,107 @@
 <search>
   <entry>
     <title>HExo安装及优化流程</title>
-    <url>/2025/01/05/HExo%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BC%98%E5%8C%96%E6%B5%81%E7%A8%8B/</url>
-    <content><![CDATA[<p>###测试相关文章推荐</p>
-<h1 id="Markdown-标题语法"><a href="#Markdown-标题语法" class="headerlink" title="Markdown 标题语法"></a>Markdown 标题语法</h1><p>要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。例如，添加三个 # 表示创建一个三级标题 ( &lt;h3&gt;  ) (例如：### My Header)。</p>
-<h1 id="Markdown-段落"><a href="#Markdown-段落" class="headerlink" title="Markdown 段落"></a>Markdown 段落</h1><p>要创建段落，请使用空白行将一行或多行文本进行分隔。</p>
-<h1 id="Markdown-换行语法"><a href="#Markdown-换行语法" class="headerlink" title="Markdown 换行语法"></a>Markdown 换行语法</h1><p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(&lt;br&gt;)。</p>
-<h1 id="Markdown-强调语法"><a href="#Markdown-强调语法" class="headerlink" title="Markdown 强调语法"></a>Markdown 强调语法</h1><p>通过将文本设置为粗体或斜体来强调其重要性。</p>
-<p><strong>粗体（Bold）</strong><br>要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。</p>
-<p><em>斜体（Italic）</em><br>要用斜体显示文本，请在单词或短语前后添加一个星号（asterisk）或下划线（underscore）。要斜体突出单词的中间部分，请在字母前后各添加一个星号，中间不要带空格。</p>
-<p><em><strong>粗体（Bold）和斜体（Italic）</strong></em><br>要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。</p>
-<h1 id="Markdown-引用语法"><a href="#Markdown-引用语法" class="headerlink" title="Markdown 引用语法"></a>Markdown 引用语法</h1><p>要创建块引用，请在段落前添加一个 &gt; 符号。</p>
-<blockquote>
-<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
-</blockquote>
-<p>多个段落的块引用<br>块引用可以包含多个段落。为段落之间的空白行添加一个 &gt; 符号。</p>
-<blockquote>
-<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
-<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed w</p>
-</blockquote>
-<p>嵌套块引用<br>块引用可以嵌套。在要嵌套的段落前添加一个 &gt;&gt; 符号。</p>
-<blockquote>
-<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
-<blockquote>
-<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with </p>
-</blockquote>
-</blockquote>
-<h1 id="Markdown-代码语法"><a href="#Markdown-代码语法" class="headerlink" title="Markdown 代码语法"></a>Markdown 代码语法</h1><p>要将单词或短语表示为代码，请将其包裹在反引号 (&#96;) 中。</p>
-<p>At the command prompt, type <code>nano</code>.</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">可以代码块</span><br><span class="line">可以代码块</span><br></pre></td></tr></table></figure>
-
-<h1 id="Markdown-分隔线语法"><a href="#Markdown-分隔线语法" class="headerlink" title="Markdown 分隔线语法"></a>Markdown 分隔线语法</h1><p>要创建分隔线，请在单独一行上使用三个或多个星号 (***)、破折号 (—) 或下划线 (___) ，并且不能包含其他内容。</p>
+    <url>/Next-install/</url>
+    <content><![CDATA[<p>本博客使用Next主题(8.22版)</p>
 <hr>
-<hr>
-<hr>
-<h1 id="Markdown-链接语法"><a href="#Markdown-链接语法" class="headerlink" title="Markdown 链接语法"></a>Markdown 链接语法</h1><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p>
-<p>超链接Markdown语法代码：<a href="%E8%B6%85%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80" title="超链接title">超链接显示名</a></p>
-<p>对应的HTML代码：<a href="超链接地址" title="超链接title">超链接显示名</a></p>
-<h1 id="Markdown-图片语法"><a href="#Markdown-图片语法" class="headerlink" title="Markdown 图片语法"></a>Markdown 图片语法</h1><p>要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。</p>
-<p>插入图片Markdown语法代码：<img src="/%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5" alt="图片alt" title="图片title">。</p>
-<p>对应的HTML代码：<img src="图片链接" alt="图片alt" title="图片title"><br><img src="/:/8ce96e02840d4dfab7bb8ac4694c03ff" alt="648088c4de9fb59f5e18e4a8e9c28067.png"></p>
-<p><img src="/assets/img/philly-magic-garden.jpg" alt="这是图片" title="Magic Gardens"></p>
-<p><a href="https://markdown.com.cn/"><img src="/assets/img/shiprock.jpg" alt="沙漠中的岩石图片" title="Shiprock"></a></p>
-<h1 id="Markdown-转义字符语法"><a href="#Markdown-转义字符语法" class="headerlink" title="Markdown 转义字符语法"></a>Markdown 转义字符语法</h1><p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。</p>
-]]></content>
+<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>下载安装 node.js  <a href="https://nodejs.org/en/" title="[最好的markdown教程](https:&#x2F;&#x2F;nodejs.org&#x2F;en&#x2F;)">官网下载</a>。<br>下载安装 git <a href="https://git-scm.com/downloads" title="[最好的markdown教程](https:&#x2F;&#x2F;git-scm.com&#x2F;downloads">官网下载</a></p>
+<p>1、本地搭建 hexo 静态博客</p>
+<ul>
+<li>安装 hexo 框架: 打开 cmd 运行</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<ul>
+<li>新建一个文件夹，如 Blog ，进入该文件夹内，右击运行 git ，输入：</li>
+</ul>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p><strong>注意</strong>：如果初始化失败（github连接失败），可以在git中添加代理</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">### 添加代理</span><br><span class="line">git config --global http.proxy &quot;http://127.0.0.1:8080(更改为自己的端口)&quot;</span><br><span class="line">git config --global https.proxy &quot;http://127.0.0.1:8080(更改为自己的端口)&quot;</span><br><span class="line">### 取消代理</span><br><span class="line">git config --global --unset http.proxy</span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>
+<ul>
+<li>注意：添加后记得重启（反正我没重启然后搞了半天都没找到原因）</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config -l --global //重启</span><br></pre></td></tr></table></figure>
+<ul>
+<li>生成完 hexo 模板，安装 npm ，运行：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>博客的主体部分到此已经完成了，来看看效果吧。运行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<p>复制提示中的地址 localhost:4000 <a href="localhost:4000" title="[默认页面](localhost:4000)">默认页面</a>，在浏览器中打开，会显示默认页面</p>
+<h3 id="添加主题"><a href="#添加主题" class="headerlink" title="添加主题"></a>添加主题</h3><ul>
+<li>下载next主题，在<strong>根目录</strong> （Blog）运行下面的命令</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/next-theme/hexo-theme-next</span><br></pre></td></tr></table></figure>
+<p>后续部分参考链接： <a href="https://www.philoli.com/building-a-blog-from-scratch/" title="从零开始搭建 Hexo 博客简明教程（2024版）">从零开始搭建 Hexo 博客简明教程（2024版）</a></p>
+<h3 id="优化指南"><a href="#优化指南" class="headerlink" title="优化指南"></a>优化指南</h3><ul>
+<li><p>Pisces风格设置横向导航栏<br>参考本站链接：<a href="http://localhost:4000/Pisces-nav/">Next主题Pisces风格状态栏调整</a></p>
+</li>
+<li><p>添加相关文章:下载插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-posts --save</span><br></pre></td></tr></table></figure>
+<p>修改主题配置文件<code>_config.yml</code>enable:为true</p>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">related_posts:</span><br><span class="line">  enable: true</span><br><span class="line">  # Custom header, leave empty to use the default one 设置推荐区块的标题</span><br><span class="line">  title:   </span><br><span class="line">  display_in_home: false</span><br><span class="line">  params:</span><br><span class="line">    maxCount: 5</span><br><span class="line">    #PPMixingRate: 0.0</span><br><span class="line">    #isDate: false</span><br><span class="line">    #isImage: false</span><br><span class="line">    #isExcerpt: false</span><br></pre></td></tr></table></figure>
+<p>在主题配置文件中<code>_config.yml</code>中添加以下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">related_posts:</span><br><span class="line">    enabled: true</span><br><span class="line">    enable_env_name: prod</span><br><span class="line">    filter_threshold: 0.3</span><br><span class="line">    related_count: 3</span><br><span class="line">    weight:</span><br><span class="line">        title: 0.05</span><br><span class="line">        description: 0.05</span><br><span class="line">        keywords: 0.01</span><br><span class="line">        tags: 0.005</span><br><span class="line">        categories: 0.005</span><br><span class="line">        text: 1</span><br><span class="line">    stemmers:</span><br><span class="line">      - en</span><br><span class="line">      - ru</span><br><span class="line">    reserved:</span><br><span class="line">      - asp.net</span><br><span class="line">      - vs.net</span><br><span class="line">      - ado.net</span><br><span class="line">      - .net</span><br></pre></td></tr></table></figure>
+<ul>
+<li>添加推荐文章<br>在主题配置文件下面添加如下字段</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">recommend_posts:</span><br><span class="line">  - title: HExo安装及优化流程  #文章名字</span><br><span class="line">    url: /Next-install/       #文章链接</span><br></pre></td></tr></table></figure>
+<ul>
+<li>然后把<code>Blog\themes\next\source\css\_common\outline\sidebar\related-posts.styl</code>文件复制到<code>Blog\themes\next\layout\_partials\sidebar</code>改名为<code>post-recommend.njk</code><br>替换为如下代码</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div class=&quot;links-of-blogroll-title&quot;&gt;</span><br><span class="line">   &lt;span&gt;推荐文章&lt;/span&gt;</span><br><span class="line">  &#123;%- if theme.related_posts.icon %&#125;&lt;i class=&quot;&#123;&#123; theme.related_posts.icon &#125;&#125; fa-fw&quot;&gt;&lt;/i&gt;&#123;% endif %&#125;</span><br><span class="line">&lt;ul class=&quot;popular-posts&quot;&gt;</span><br><span class="line">&#123;%- for post in theme.recommend_posts %&#125;</span><br><span class="line">  &#123;%- set popular_post = site.posts.findOne(&#123; path: path &#125;) %&#125;</span><br><span class="line">  &lt;li class=&quot;popular-posts-item&quot;&gt;</span><br><span class="line">    &lt;a class=&quot;popular-posts-link&quot; href=&quot;&#123;&#123; post.url &#125;&#125;&quot; rel=&quot;bookmark&quot;&gt;</span><br><span class="line">    &#123;&#123; post.title &#125;&#125;</span><br><span class="line">    &#123;%- if popular_post.date %&#125;</span><br><span class="line">     &lt;time class=&quot;popular-posts-time&quot;&gt;&#123;&#123; date(popular_post.date) &#125;&#125;&lt;/time&gt;</span><br><span class="line">    &#123;%- endif %&#125;  </span><br><span class="line">    &lt;/a&gt;</span><br><span class="line">  &lt;/li&gt;</span><br><span class="line">&#123;%- endfor %&#125;</span><br><span class="line">&lt;/ul&gt; </span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="添加加密文章"><a href="#添加加密文章" class="headerlink" title="添加加密文章"></a>添加加密文章</h3><p>安装插件<code>hexo-blog-encrypt</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+<ul>
+<li>将 “password” 字段添加到您文章信息头.</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2016-03-30 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<ul>
+<li>修改系统配置文件，在结尾添加如下信息</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">  #文章加密</span><br><span class="line"></span><br><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 有东西被加密了, 请输入密码查看.</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
+<ul>
+<li>文章不加密：设置<code>password=&quot;&quot;</code>即可</li>
+</ul>
+<h3 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h3><ul>
+<li><p>Livere（来必力）评论插件:参考链接如下 <a href="https://ericasun.github.io/2024/03/18/hexo/2024/Hexo%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9Flivere/">Hexo添加评论系统livere</a></p>
+</li>
+<li><p>开启 Utterances 评论功能<br> 创建存放 comments 的代码仓库，必须为 public，且可创建 issue。<br> 点击这个链接安装 utterances app 到刚刚创建的那个仓库<br><a href="https://github.com/apps/utterances">install utterances app</a> 点击这个链接安装 utterances app 到刚刚创建的那个仓库<br>点击安装，选择你用来存放评论的库，选择相应的权限，点击保存<a href="https://blog.lanweihong.com/posts/24011/">参考链接</a></p>
+<ul>
+<li>修改主题配置文件：找到以下位置</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Utterances</span><br><span class="line"># For more information: https://utteranc.es</span><br><span class="line">utterances:</span><br><span class="line">  enable: true</span><br><span class="line">  repo: 用户名/仓库名称 # 评论系统仓库mingc</span><br><span class="line">  # Available values: pathname | url | title | og:title</span><br><span class="line">  issue_term: pathname</span><br><span class="line">  # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light</span><br><span class="line">  theme: github-light</span><br><span class="line"></span><br><span class="line"># Isso</span><br><span class="line"># For more information: https://isso-comments.de</span><br><span class="line">isso: # &lt;data_isso&gt;</span><br></pre></td></tr></table></figure>
+<p>注意：参考链接中NEXT主题为老版本，新版本（8.0+）已集成Utterances评论系统，按照上面配置启用即可。</p>
+<h1 id="完成上边操作后需要素质三联hexo-clean-hexo-g-hexo-s"><a href="#完成上边操作后需要素质三联hexo-clean-hexo-g-hexo-s" class="headerlink" title="完成上边操作后需要素质三联hexo clean &amp;&amp; hexo g &amp;&amp; hexo s"></a>完成上边操作后需要素质三联<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></h1>]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
       <tags>
-        <tag>记录</tag>
+        <tag>Next主题</tag>
       </tags>
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2025/01/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br><span class="line">.post-body p a&#123;</span><br><span class="line">  color: <span class="comment">#0593d3;</span></span><br><span class="line">  border-bottom: none;</span><br><span class="line">  border-bottom: 1px solid <span class="comment">#0593d3;</span></span><br><span class="line">  &amp;:hover &#123;</span><br><span class="line">    color: <span class="comment">#fc6423;</span></span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid <span class="comment">#fc6423;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+    <url>/Hello-World/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="269d48cb7ac48bd562c567e448d963806fc9268319b539a4c5f7a2d208c8d9ad">21f8e907b6ea59635716f91a3e5cdbab3786f4756d1a63aa28966687d362e48bfa0fc5cf090f5e20e82031b635a6421cf4679ec6461786623f09734b0e7fb7c92677323a82791bcf6ed98e90b3ba6a001ff36fe884f9b31ccd3f69bd30c978d42af2faeaf532f47e7bcae036f1c1b07e660301860d7df5bab401fb97c052bb8926d81ad1aa5fac13f40af6b255a72e5f53cb6e40c183e6d9960f91f841e050287ddef919e5e7cfa97a19058d21e7a3405f0dd473ed52801e8d74d74493671831fb23f0da3027387aa99eaadb35771d32f6323d8871b020b7b3f98d2b9bf5d8d90b430a6fe0984e33fb9fd39dae21461151b6aa915a5df95b906993c8db528217b054ed7f0b57017122e24a086707239bd3a9d05a676b6e78b513c2cccb8e32b7e17b2bd07d391c49c9fe6d8fd7166f09088c5cf96e54bf4e8ef5b1479b6fd4d8855fe34c1e676ef583f6263390c2026bf5d8e27a247b623a826d6754fb94627b5f99a7be569efc109f4d3127b3864a35ddd2ffa71ca3fea1f505169026102c572a76fb97d5b39f34da9711687af7643f355b57bce134aa33b7a68742f3baf32f1cc4bbaf11279cc67bb64060465a7f032d8884eaba0b81188e1a987f20d4496eb591be5a80519c091e3ae4357f806675782cb2454937350fec98106e382887f1085bffe9a76d97c91d6c2861bd76d8566f9ae805e7bee3765ede38dda8bacef88984fa7ecde85198fe59f14c8a96740c37aebcd47673fa22affb967c4c54ee71138388abc8893d352bd1f76b3a628800f2e081ca7bd7f65018bb26a8c3e5fe3dceb167ea5158aa90fdbc2977fc179eeef46aba3598a449c75a600f31770f2883a91af4dfe42181c1cabae4ac52603d543a3dbd3a9849697a8e0fc822009ea79ab7cd9da0573882c37b0c380276d17c34573b99ee888417bbfa32378aee6079791b35ca10d8a625dc4fc786b98f630f87ca88bd32814c403b9f18df57ab9fa2c90eb198033dacff8de977bb79cf21c78c4bc7c35a10bac429f3ce46a97a319675b9d3d5dfd1397bc6f608380c046eb53bb6a6fb29006977770fe302c03f1dc3e0f0a1c86b6214d7540167b00051ce8e2f5d115fbf8b7fc5cd3603de692a8fffd0bf4e14834b46838d0749b1329d5ae8d36e81b094f9692d67f8da2e7c89e624b727bfd259d26fca775cda86b431f6a622881ef7f1fd854e28a7f6f75413c0a74a8bcd0deb1ab5cf89321cd8894b7aad7dedd0e7eb2fcc041032aaf1e55063f027f0e8c09548c2353baa5951d5b0bb384b4ea3813a39be8adbb5bfb1f2d0d20172bb08db46e5175909a7ef8d2257058fc1ad7e6cd1a4a962aad5a417418f0c7d849838ea6fda1952b116e60c5896ffa147fd5641414434f4d3cb31394033b4bdd8af205b41fe8c6271bbfa7e6dd3c61a4b89a6b505592e0a4a18f97bcd5cbba09b70cce422bad8da30e395c6dbbce38f7b2611bc40039a9a3d148e1c63d8e43952eab3cc8b6602846ff6561eeb87f3b872ca77df0c546146d7a07c2a5aa8520e3c25ca17fea780f48e29df6458da221acf44e2279bba60417d71bd5c98b5fdab0639a06d179b2cd4a13b1b091dc77d4612195146cdd04d6683fc6f3483dd006fb495cc10b493d3b8c135d019c9c35bdf8f2b7e872711d4525e6fb4b966ac5b7bb8485741c56494cb893fb7a16ead4d1234b93ba240a233ff4b36dd3c84403d63d8f30be96df892615d389d0b1ae579acf872953db7c700d479cfadd71b1ad41abf229b846bc39a35b58f63a474fb6d7a03796101526b2907fa343b7ecc0f8c1048542c8d5eb5c3dcbc84b3e6c2466cacb819e1ae8b8008a9fc0bb2fde96ad55bfafc0b507121295e3dd9a854a8dd3f7496d91504cb004c35196585b7edc88648435d19a95821462af98aa792d01d1a67114463a9112bc2e8169934808c71336910e6c8947710d35e3f58ac75e3554aa2fdae7fd200b3b9a512b39274f426c1223ab8ff5b1779c88e571eb9df52101515ef7b87204dd8569b892507ff7ea1fa69e5442664aec202f3a45cbaea4b291f3d4bc82eac16891430f79bddd7aa7f0028f177d5858ee3c2800c6f669a9d31675717115775a8d43e46ea4f22082344e773711f826ae407555b22f069ffa4d607815d68661a3118fc276e57ffed089cc2e53543dfbf9ae48f4e1e573a641217a259bee95522ea99908f1b7a89428ce25513c4fb6f66e7a56efdcc6ab1e362136c3ae84b8d14fbadb440dd9c9817c0147f76480a31505e2cd70f7c82e439a3f9c6358ada74cd5f6849f8aa797d19b2072afea77af36dbdeb0f9f895cd07abb1ef402175eda30942a2ebbda4ece10255813e14b6d3eeb5e62864820d1c570a7fec2e37665fa8a4307c334b01b351e4a839cecca9934b54b4762cb9482ca082a2f92c5574931c55f119aae998e64ebefcd02df06f4ba4ae550ffd69c22000dc8c5c64321e0fb0d2f85fc75307c6d0da9bfa458aa562e2b2279180bcccba2c509d4b4a0871df4ca41a2ce400245d223242fce82a64a1ef2bda0cea2c1ad98c6ec7d574f89d289d8c35aa257b868143b395469cae0be82bb4ce4a6ea1b7321f39a966e8f57a199894891c40313f0b883b2a8f1036a0bc8f2dfd7f90ba295b40e097f1db3474bcf0e45bef92fe11fc83fcfb981864f20e6876997ee8937e08d90aa0ebe5daadf29b70578d397ee93e377451ae1a0817715fde087208625f42631182e51789987197b8619fbc2069791a5d5fa96f26141155e334c87429fe0db0455d8b7bf2cc4d132dee472c06c5661c071bb4f0bae4ac0972b95a0a86779f4c6fea875f7af28bae75546251f882171720bca942daf3b1104916befb1713fa38d9f88fd584dd5e78775772ce04a4b9b7a5d17427b48ff82c089d7aa875a0b4ffff93b79d23838a0cfec2302f8d2cf79fcca0da97680756aa9aea0b3c67712dc09d68ee569f54fccd253be40dca9cd91a57bd111629fce6257ba9616961448e004b47578b0658c6a22e476d52b79ecc9b363e70c20c0a3c8b7443cc7e7b1f378259a7a7c32820ae7f97676b7e77225bbe01be35aa681daff4fd217449909d4cb5760e4b5f9c9e96a9ee2d83ea31166d8aa6dbc611fb99a80ccac289432d8acd693a88f9ba48c0694c2ba849c3dfa15b51a789636af33299e62767b9f3ccd6989e85e61de6b096c9afa599f1b47c8e3891b94cfe9e9e735c4e19948c22ccdcab1ad11fd3038cef5dc97fc2fc250ce94feadfb1d569ce38a4bba548db8e85c9b8488cc379d4f406098a0b7e2a37c879b5565422e609ee5eca89b8b1224b0bd68840c630c022807eb0b55f4dbb1c2108574524aa05ec5000c1d4ecdcdeb2d7e274125b6368c93ac5c114db817a708092f8de881471e11434fd7cc4359f4f95dc43994f39761fdf3ae7d5b6ac3c69a43b02ad7be7e19067ae3a7b5cca1bccd3cb6b4b161effcc96d13758fb6a6e074c3631aa5bebfde46b9b4bf33c92c7fd757879c9bda76d5043bcd4089cb752a812d9a390156a1c687c71cfe384740dd0ad2e0cf2da2afb72bd2e243542fdfa9fa64c694931946e12982a42a5a0717cb98f85410de7ea68f785096997daf1b9483331b82ca02cc51c48ab7a3412caadde1912829b2e2dc165041b152fbc54fadbd5bb3cc897935eb4f099bd431435662ddc48908cb47f72f4f0c285a10d8a19e37ca8a052c9db37038fc5cd24a877bb0c6af7e17a8fcac535cf64a0d48d87fda8cb95068d6bb4bbda149f224817cde2bc4b5a8bd01579497369ba5f8b9b449bca92e188695fd379bf8ffc9609081d17a867d272c3b4d8adbc1a981b5d041d447afa6673ae7a4ea31e3bf8693030dc377d638b0edb5c0cbd3a2b4bf44c70b22ccebc30d6f61abfac30655f7b0b11c06aebee5b704bcd8528c44c71318f7cf00dafcd3f4533d10593a434638afc6310ffe07291a0a78400bfbcee37422718c731192c28418fb507ff0bc321f5827b347eeece1efb2894fc09bb4528472723e23acb55435dbf7cf4b15270036fd494bee69db288192447a043a4cdc9fb0c7875bbe5b1a967a402b9c88128e7c0697bd7c1b6ab4e0954eba765ad5fff96207962a4c8a18ebaee9306b4305df4d3ecabb479da29991e5b8c4808b1a8fc007ef005eb8db3e6d095970919e6ac8e7ef7895e1717339c6fe8fd14cab4478a438d95d96f8f5946431263f177d755333fc6224304d71e522ff9edb2ce0ea5b2bdc3b171d2d7e162dc65ce70cf6087e69418107154624b2dfd5f1ed4c78022343102489dd4184cc75b3e6d2e6e6c39ec79f5d7e44fddffac985b1611cc808620938d1643ae0947c3529db415890fea31266b599fca3d67f784de604ed4be54182f72dc6c57277be976cb3cd91a59abea892a94335ed9aa28903ec29cee198c9ec847dd632401dd1e9cd4f80abca5d48a490fecdb43a1592675f0acaa53f43afaaa0d7ca58f105437096169197d57dcb</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>”MARKDOWN语法“</title>
-    <url>/2025/01/05/%E2%80%9DMARKDOWN%E8%AF%AD%E6%B3%95%E2%80%9C/</url>
+    <url>/markdown-note/</url>
     <content><![CDATA[<p>一些基础的markdown语法，记录备用</p>
 <span id="more"></span>
 
@@ -128,7 +161,7 @@
   </entry>
   <entry>
     <title>Next主题Pisces风格状态栏调整</title>
-    <url>/2025/01/11/%E7%8A%B6%E6%80%81%E6%A0%8F%E8%B0%83%E6%95%B4/</url>
+    <url>/Pisces-nav/</url>
     <content><![CDATA[<p>使用Next主题的Pisces风格，不喜欢侧边导航栏，想改成横向的，网上没查到资料，于是自己摸索改了下。</p>
 <p>1、找到主题_layout.njk文件，具体路径为Blog（博客跟目录）\themes\next\layout_layout.njk<br>2、找到以下代码，删除或注释导航栏代码</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;body itemscope itemtype=&quot;http://schema.org/WebPage&quot;&#123;% if theme.motion.enable %&#125; class=&quot;use-motion&quot;&#123;% endif %&#125;&gt;</span><br><span class="line">  &lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;</span><br><span class="line">  &lt;main class=&quot;main&quot;&gt;</span><br><span class="line">    &lt;div class=&quot;column&quot;&gt;</span><br><span class="line">      &lt;header class=&quot;header&quot; itemscope itemtype=&quot;http://schema.org/WPHeader&quot;&gt;</span><br><span class="line"></span><br><span class="line">      &lt;!-- 下面这行是网站名字代码 --&gt; </span><br><span class="line">      &#123;%- include &#x27;_partials/header/brand.njk&#x27; -%&#125;   	 </span><br><span class="line">	 &lt;!-- 下面这行是导航栏代码，删除或注释 </span><br><span class="line"></span><br><span class="line">     </span><br><span class="line">        &#123;%- include &#x27;_partials/header/index.njk&#x27; -%&#125;</span><br><span class="line">		</span><br><span class="line">		--&gt; </span><br><span class="line">      &lt;/header&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -137,8 +170,11 @@
 
 <p>4、自己设类选择器，然后在themes\next\source\css_schemes\Pisces_menu.styl中修改想要的样式。</p>
 ]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
       <tags>
-        <tag>博客</tag>
+        <tag>Next</tag>
       </tags>
   </entry>
 </search>
